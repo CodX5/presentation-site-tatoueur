@@ -1,0 +1,84 @@
+.content-body {
+    background-image: url('../img/background-all.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 99.59rem;
+    padding: 6%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-body > .text-accueil {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-body > .text-accueil > hr {
+    width: 140%;
+}
+
+.content-body > .text-accueil > h1 {
+    display: flex;
+    flex-direction: row;
+    font-size: xxx-large;
+}
+
+.content-body > .gallerys{
+    margin-top: 5%;
+}
+
+.content-body > .gallerys > .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-body > .gallerys > .gallery > img{
+    width: 20%;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 1560px){
+    .content-body {
+        height: 90rem;
+    }
+}
+@media (max-width: 430px){
+    .content-body {
+        height: 263.2rem;
+    }
+    .content-body > .gallerys > .gallery {
+        flex-direction: column;
+    }
+    .content-body > .gallerys > .gallery > img {
+        margin-bottom: 55px;
+        width: 73%;
+    }
+    .content-body > .gallerys > .gallery > .space{
+        width: 72.3% !important;
+    }
+
+}
+
+@media (max-width: 414px){
+    .content-body {
+        height: 256.2rem;
+    }
+}
+
+@media (max-width: 390px){
+    .content-body {
+        height: 244.2rem;
+    }
+}
+
+@media (max-width: 375px){
+    .content-body {
+        height: 238.2rem;
+    }
+}
